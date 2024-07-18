@@ -33,3 +33,9 @@ Ya con esta version probada habra que realizzar los diseños "finales" y en para
 
 ### Lanzar juego
 Probar el juego con los cauros.
+
+## Reglas
+Se puede descargar assets de internet
+
+Fecha  límite: `7 Agosto`
+
