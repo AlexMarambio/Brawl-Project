@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://c5tj5lpn7l38n"]
+[gd_scene load_steps=13 format=3 uid="uid://c5tj5lpn7l38n"]
 
 [ext_resource type="PackedScene" uid="uid://bl4ne0r5qclqv" path="res://character_body_3d.tscn" id="1_o3i2r"]
 [ext_resource type="Texture2D" uid="uid://buccwav55jlum" path="res://icon.svg" id="2_ix5rf"]
@@ -16,6 +16,10 @@ background_mode = 2
 sky = SubResource("Sky_ntoy7")
 tonemap_mode = 2
 glow_enabled = true
+
+[sub_resource type="Environment" id="Environment_1767b"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_4tgrw"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7ll65"]
 size = Vector3(1.90268, 0.143005, 2.20429)
@@ -44,6 +48,8 @@ transform = Transform3D(0.335054, 0, 0, 0, 0.335054, 0, 0, 0, 0.335054, 0, 0, 1)
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
 transform = Transform3D(-0.0338603, -1.25945, 2.70563, -0.0157605, 2.70584, 1.25936, -2.98436, -2.77984e-09, -0.0373485, 385.292, 109.579, 8.37048)
+environment = SubResource("Environment_1767b")
+attributes = SubResource("CameraAttributesPractical_4tgrw")
 script = ExtResource("3_uihgm")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]

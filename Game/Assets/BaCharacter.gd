@@ -15,6 +15,5 @@ func _process(delta):
 	if direction:
 		$AnimationPlayer.play("Walk")
 	else:
-
 		$AnimationPlayer.play("FightPosition")
 
