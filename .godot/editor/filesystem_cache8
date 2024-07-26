@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1722008504
+preuba.png::CompressedTexture2D::3848966003747924796::1721437218::1721958240::1::::<><>::
+README.md::TextFile::-1::1721437218::0::1::::<><>::
+stumbleguy.png::CompressedTexture2D::453847697364208675::1721437218::1721958240::1::::<><>::
+::res://GAME/::1722008504
+icon.svg::CompressedTexture2D::3794487067257721608::1722008504::1722008513::1::::<><>::
+main.tscn::PackedScene::6918330482169161367::1722008475::0::1::::<><>::uid://bl4ne0r5qclqv::::res://GAME/Assets/character_body_3d.tscn<>uid://buccwav55jlum::::res://GAME/icon.svg<>res://GAME/Code/Camera3D.gd
+::res://GAME/Assets/::1722008504
+BaCharacter.glb::PackedScene::2041998409767903570::1722008504::1722008504::1::::<><>::
+character_body_3d.tscn::PackedScene::3219162723390739057::1722008440::0::1::::<><>::res://GAME/Code/character_body_3d.gd
+untitled.glb::PackedScene::2398342739332374290::1722008504::1722008504::1::::<><>::
+::res://GAME/Code/::1722008504
+BaCharacter.gd::GDScript::-1::1722008504::0::1::::<>Node3D<>::
+Camera3D.gd::GDScript::-1::1722008504::0::1::::<>Camera3D<>::
+character_body_3d.gd::GDScript::-1::1722008504::0::1::::<>CharacterBody3D<>::
